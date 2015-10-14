@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ctags --langmap=RUBY:.rb --exclude="*.js"  --exclude=".git*" -R .
+/usr/local/bin/ctags --langmap=RUBY:.rb --exclude="*.js"  --exclude=".git*" -R .

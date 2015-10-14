@@ -1,0 +1,17 @@
+data/EditorEnhancements/Editor/ProjectWindow.cs.i
+data/EditorEnhancements/package.json.i
+data/package.json.i
+data/EditorEnhancements/Editor/HeirarchyWindow.cs.i
+data/EditorEnhancements/Editor/AssetInfo.cs.i
+data/EditorEnhancements/Editor/MoreTooltips.cs.i
+data/EditorEnhancements/Editor/UnlockWindowSizes.cs.i
+data/EditorEnhancements/Editor/TeneEnhPreviewWindow.cs.i
+data/EditorEnhancements/Editor/Common.cs.i
+data/.hgignore.i
+data/EditorEnhancements/Editor/DependencyChecker.cs.i
+data/EditorEnhancements/Editor/ProjectWindowPreview.cs.i
+data/EditorEnhancements/Editor/TeneDropTarget.cs.i
+data/EditorEnhancements/Editor/Main.cs.i
+data/EditorEnhancements/Editor/HeirachyWindow.cs.i
+data/EditorEnhancements/Editor/HierarchyWindow.cs.i
+data/EditorEnhancements/Editor/Defaults.cs.i
