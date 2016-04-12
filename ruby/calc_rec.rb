@@ -7,17 +7,17 @@ def calc_resume(resume)
   coeff_thru_2nd_session = 1 #0.7
   coeff_thru_3rd_session = 0.3
   coeff_jitairitu = 0.8
-  
+
   output = resume *
-    coeff_thru_resume *
-    coeff_thru_1st_session *
-    coeff_thru_2nd_session *
-    coeff_thru_3rd_session *
-    coeff_jitairitu
+           coeff_thru_resume *
+           coeff_thru_1st_session *
+           coeff_thru_2nd_session *
+           coeff_thru_3rd_session *
+           coeff_jitairitu
 
   puts output
 end
 
 p "output for 2"
 
-calc_resume 85
+calc_resume 1000

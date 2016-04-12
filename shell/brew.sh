@@ -29,19 +29,19 @@ sudo npm cache clean
 sudo npm update -g
 echo -e "\n####### node.js version #######"
 node -v
-echo -e "\n####### grunt-init version #######"
-grunt-init --version
-echo -e "\n####### grunt version #######"
-grunt --version
+#echo -e "\n####### grunt-init version #######"
+#grunt-init --version
+#echo -e "\n####### grunt version #######"
+#grunt --version
 echo -e "\n####### bower version #######"
 bower --version
 echo -e "\n####### gulp version #######"
 gulp --version
-echo -e "\n####### less version #######"
-lessc -v
+#echo -e "\n####### less version #######"
+#lessc -v
 
 # Vagrant plugin
-echo -e "\n####### Vagrant plugin Update #######\n"
-vagrant plugin update
-echo -e "\n####### Vagrant plugin List #######\n"
-vagrant plugin list
+# echo -e "\n####### Vagrant plugin Update #######\n"
+# vagrant plugin update
+# echo -e "\n####### Vagrant plugin List #######\n"
+# vagrant plugin list
