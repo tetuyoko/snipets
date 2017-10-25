@@ -25,7 +25,7 @@ gem list
 
 # npm
 echo -e "\n####### node.js npm Update #######\n"
-sudo npm cache clean
+sudo npm cache verify
 sudo npm update -g
 echo -e "\n####### node.js version #######"
 node -v
