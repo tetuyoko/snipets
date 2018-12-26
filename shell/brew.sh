@@ -16,10 +16,10 @@ ruby -v
 
 # RubyGem
 echo -e "\n####### RubyGem #######\n"
-sudo update_rubygems
-sudo gem update
+update_rubygems
+gem update
 echo -e "\n####### gem clean #######\n"
-sudo gem clean
+gem clean
 echo -e "\n####### gem list #######\n"
 gem list
 
