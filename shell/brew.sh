@@ -13,6 +13,7 @@ brew doctor
 # Ruby
 echo -e "\n####### Ruby #######\n"
 ruby -v
+brew upgrade ruby-build
 
 # RubyGem
 echo -e "\n####### RubyGem #######\n"
@@ -30,8 +31,11 @@ sudo npm update -g
 echo -e "\n####### node.js version #######"
 node -v
 
-# pip
-echo -e "\n####### pip update #######"
-pip install --upgrade pip setuptools
+#yarn
+curl -o- -L https://yarnpkg.com/install.sh | bash
+
+# pip3
+echo -e "\n####### pip3 update #######"
+pip3 install --upgrade pip setuptools
 echo -e "\n####### pip version #######"
-pip --version
+pip3 --version
