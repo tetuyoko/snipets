@@ -2,10 +2,7 @@
 
 # Homebrew
 echo -e "\n####### Homebrew Update #######\n"
-brew update
-brew upgrade
-echo -e "\n####### Homebrew Clean Up #######\n"
-brew cleanup
+brew upgrade --cleanup
 echo -e "\n####### Homebrew Check #######\n"
 brew -v list
 brew doctor
